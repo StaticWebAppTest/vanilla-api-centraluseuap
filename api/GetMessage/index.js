@@ -5,7 +5,7 @@ module.exports = async function (context, req) {
   context.res = {
     // status: 200, /* Defaults to 200 */
     body: {
-      text: `version:2 siteName: ${siteName} packageUrl: ${packageUrl}`
+      text: `version:3 siteName: ${siteName} packageUrl: ${packageUrl}`
     },
   };
 };
